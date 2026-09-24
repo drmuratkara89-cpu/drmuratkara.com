@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#151515"/><text x="32" y="39" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#f8f6f1">MK</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <circle cx="50" cy="50" r="46" stroke="#151515" stroke-width="2" fill="#fff"/>
+  <circle cx="50" cy="50" r="42" stroke="#151515" stroke-width="0.8" stroke-opacity="0.4" fill="none"/>
+  <polygon points="50,9.5 52.2,13.5 50,17.5 47.8,13.5" fill="#151515"/>
+  <polygon points="50,82.5 52.2,86.5 50,90.5 47.8,86.5" fill="#151515"/>
+  <text x="50" y="58" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="34" font-weight="bold" fill="#151515" letter-spacing="1">MK</text>
+  <path d="M35 65 C 44 68.5, 56 68.5, 65 65" stroke="#151515" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+</svg>
