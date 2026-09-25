@@ -24,81 +24,107 @@
   <link href="/styles.css" rel="stylesheet"/>
   
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://drmuratkara.com/#website",
-        "url": "https://drmuratkara.com/",
-        "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
-        "description": "Ankara Çankaya'da medikal estetik ve kozmetoloji hekim uygulamaları."
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://drmuratkara.com/#website",
+      "url": "https://drmuratkara.com/",
+      "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
+      "description": "Dr. Murat Kara – Medikal Estetik ve Kozmetoloji – Ankara Çankaya kliniği resmi web sitesi.",
+      "publisher": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
       },
-      {
-        "@type": "Physician",
-        "@id": "https://drmuratkara.com/#physician",
-        "name": "Dr. Murat Kara",
-        "givenName": "Murat",
-        "familyName": "Kara",
-        "honorificPrefix": "Dr.",
-        "url": "https://drmuratkara.com/",
-        "image": "https://drmuratkara.com/dr-murat-kara.jpg",
-        "telephone": "+905392508489",
-        "medicalSpecialty": "Cosmetic and Medical Aesthetics",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
-          "addressLocality": "Çankaya",
-          "addressRegion": "Ankara",
-          "addressCountry": "TR"
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-            "opens": "10:00",
-            "closes": "19:00"
-          }
-        ],
-        "sameAs": [
-          "https://www.instagram.com/drmuratkara/"
-        ],
-        "areaServed": {
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://drmuratkara.com/#dr-murat-kara",
+      "name": "Dr. Murat Kara",
+      "givenName": "Murat",
+      "familyName": "Kara",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Medikal Estetik ve Kozmetoloji Hekimi",
+      "description": "Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan medikal estetik ve kozmetoloji uygulamaları yürüten tıp hekimi.",
+      "url": "https://drmuratkara.com/",
+      "image": "https://drmuratkara.com/dr-murat-kara.jpg",
+      "telephone": "+905392508489",
+      "medicalSpecialty": "Cosmetic and Medical Aesthetics",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
+        "addressLocality": "Çankaya",
+        "addressRegion": "Ankara",
+        "postalCode": "06510",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.9085",
+        "longitude": "32.8123"
+      },
+      "sameAs": [
+        "https://www.instagram.com/drmuratkara/"
+      ],
+      "areaServed": [
+        {
           "@type": "City",
           "name": "Ankara"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Çankaya"
         }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Hangi uygulamanın bana uygun olduğuna nasıl karar verilir?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Uygunluk; hekim muayenesi, tıbbi öykü, yüz oranları ve cilt değerlendirmesi ile hastanın beklentilerinin birlikte ele alınmasıyla belirlenir."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Medikal estetik uygulamalarında doğal görünüm korunabilir mi?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Planlamada yüzün mevcut oranları, mimikleri ve kişinin beklentileri dikkate alınır. Amaç kişiyi değiştirmek değil, yorgun ve orantısız ifadeyi dengelemektir."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "İşlem öncesinde görüşme ve muayene gerekli midir?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Uygulama kararı öncesinde hekim değerlendirmesi; kişinin uygunluğu, olası riskler ve alternatiflerin detaylı konuşulması açısından zorunludur."
-            }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hangi uygulamanın bana uygun olduğuna nasıl karar verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uygunluk; hekim muayenesi, tıbbi öykü, yüz oranları ve cilt değerlendirmesi ile hastanın beklentilerinin birlikte ele alınmasıyla belirlenir."
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "@type": "Question",
+          "name": "Medikal estetik uygulamalarında doğal görünüm korunabilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Planlamada yüzün mevcut oranları, mimikleri ve kişinin beklentileri dikkate alınır. Amaç kişiyi değiştirmek değil, yorgun ve orantısız ifadeyi dengelemektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İşlem öncesinde görüşme ve muayene gerekli midir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uygulama kararı öncesinde hekim değerlendirmesi; kişinin uygunluğu, olası riskler ve alternatiflerin detaylı konuşulması açısından zorunludur."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>

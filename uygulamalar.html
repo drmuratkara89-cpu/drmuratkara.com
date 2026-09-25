@@ -23,47 +23,115 @@
   <link href="/styles.css" rel="stylesheet"/>
   
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Ana Sayfa",
-            "item": "https://drmuratkara.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Uygulamalar",
-            "item": "https://drmuratkara.com/uygulamalar.html"
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://drmuratkara.com/#website",
+      "url": "https://drmuratkara.com/",
+      "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
+      "description": "Dr. Murat Kara – Medikal Estetik ve Kozmetoloji – Ankara Çankaya kliniği resmi web sitesi.",
+      "publisher": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
       },
-      {
-        "@type": "Physician",
-        "name": "Dr. Murat Kara",
-        "url": "https://drmuratkara.com/",
-        "image": "https://drmuratkara.com/dr-murat-kara.jpg",
-        "telephone": "+905392508489",
-        "medicalSpecialty": "Cosmetic and Medical Aesthetics",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
-          "addressLocality": "Çankaya",
-          "addressRegion": "Ankara",
-          "addressCountry": "TR"
-        },
-        "areaServed": {
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://drmuratkara.com/uygulamalar.html#webpage",
+      "url": "https://drmuratkara.com/uygulamalar.html",
+      "name": "Medikal Estetik Uygulama Rehberi | Dr. Murat Kara Ankara",
+      "description": "Dr. Murat Kara Ankara Çankaya muayenehanesinde uygulanan 5 ana kategori ve tüm medikal estetik tedavi dizini.",
+      "isPartOf": {
+        "@id": "https://drmuratkara.com/#website"
+      },
+      "author": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
+      },
+      "reviewedBy": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
+      },
+      "lastReviewed": "2026-09-25",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-25",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://drmuratkara.com/#dr-murat-kara",
+      "name": "Dr. Murat Kara",
+      "givenName": "Murat",
+      "familyName": "Kara",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Medikal Estetik ve Kozmetoloji Hekimi",
+      "description": "Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan medikal estetik ve kozmetoloji uygulamaları yürüten tıp hekimi.",
+      "url": "https://drmuratkara.com/",
+      "image": "https://drmuratkara.com/dr-murat-kara.jpg",
+      "telephone": "+905392508489",
+      "medicalSpecialty": "Cosmetic and Medical Aesthetics",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
+        "addressLocality": "Çankaya",
+        "addressRegion": "Ankara",
+        "postalCode": "06510",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.9085",
+        "longitude": "32.8123"
+      },
+      "sameAs": [
+        "https://www.instagram.com/drmuratkara/"
+      ],
+      "areaServed": [
+        {
           "@type": "City",
           "name": "Ankara"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Çankaya"
         }
-      }
-    ]
-  }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://drmuratkara.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Uygulamalar",
+          "item": "https://drmuratkara.com/uygulamalar.html"
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>

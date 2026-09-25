@@ -1,45 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dr. Murat Kara | Medikal Estetik ve Kozmetoloji – Ankara</title>
-  <meta content="Dr. Murat Kara: Ankara Çankaya'da medikal estetik ve kozmetoloji hekimi. Doğal yüz anatomisi, kişiye özel muayene, botoks, dolgu ve rejeneratif estetik yaklaşımı." name="description"/>
-  <link href="https://drmuratkara.com/dr-murat-kara.html" rel="canonical"/>
-  <meta content="profile" property="og:type"/>
-  <meta content="tr_TR" property="og:locale"/>
-  <meta content="Dr. Murat Kara | Medikal Estetik ve Kozmetoloji – Ankara" property="og:title"/>
-  <meta content="Dr. Murat Kara'nın hekimlik vizyonu, medikal estetik felsefesi ve Ankara Çankaya kliniğindeki hasta yaklaşımı." property="og:description"/>
-  <meta content="https://drmuratkara.com/dr-murat-kara.html" property="og:url"/>
-  <meta content="https://drmuratkara.com/dr-murat-kara.jpg" property="og:image"/>
-  <meta content="472" property="og:image:width"/>
-  <meta content="710" property="og:image:height"/>
-  <meta content="Dr. Murat Kara – Medikal Estetik Hekimi Ankara" property="og:image:alt"/>
-  <meta content="Dr. Murat Kara" property="og:site_name"/>
-  <meta content="summary_large_image" name="twitter:card"/>
-  <meta content="#fcfbf9" name="theme-color"/>
-  <link href="/site.webmanifest" rel="manifest"/>
-  <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
-  <link href="/styles.css" rel="stylesheet"/>
+  <meta name="description" content="Dr. Murat Kara: Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan tıp hekimi. Profesyonel biyografi, klinik felsefesi ve medikal estetik uygulamaları.">
+  <link rel="canonical" href="https://drmuratkara.com/dr-murat-kara.html">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Dr. Murat Kara | Medikal Estetik ve Kozmetoloji – Ankara">
+  <meta property="og:description" content="Dr. Murat Kara: Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan medikal estetik ve kozmetoloji hekimi. Hekimlik vizyonu ve klinik yaklaşımı.">
+  <meta property="og:url" content="https://drmuratkara.com/dr-murat-kara.html">
+  <meta property="og:image" content="https://drmuratkara.com/dr-murat-kara.jpg">
+  <meta property="og:image:width" content="472">
+  <meta property="og:image:height" content="710">
+  <meta property="og:image:alt" content="Dr. Murat Kara – Medikal Estetik ve Kozmetoloji Ankara">
+  <meta property="og:site_name" content="Dr. Murat Kara">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fcfbf9">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
   
-  <!-- ProfilePage & Physician & Person Schema -->
+  <!-- ProfilePage & Physician & Person Schema (Consistent Entity ID) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",
+        "@id": "https://drmuratkara.com/#website",
+        "url": "https://drmuratkara.com/",
+        "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
+        "description": "Dr. Murat Kara – Medikal Estetik ve Kozmetoloji – Ankara Çankaya kliniği resmi web sitesi.",
+        "publisher": { "@id": "https://drmuratkara.com/#dr-murat-kara" },
+        "inLanguage": "tr-TR"
+      },
+      {
         "@type": "ProfilePage",
         "@id": "https://drmuratkara.com/dr-murat-kara.html",
         "url": "https://drmuratkara.com/dr-murat-kara.html",
         "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji – Ankara",
+        "description": "Dr. Murat Kara biyografisi, mesleki felsefesi ve medikal estetik yaklaşımı.",
+        "isPartOf": { "@id": "https://drmuratkara.com/#website" },
+        "mainEntity": { "@id": "https://drmuratkara.com/#dr-murat-kara" },
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://drmuratkara.com/dr-murat-kara.jpg"
+          "url": "https://drmuratkara.com/dr-murat-kara.jpg",
+          "caption": "Dr. Murat Kara"
         }
       },
       {
         "@type": "Physician",
-        "@id": "https://drmuratkara.com/#physician",
+        "@id": "https://drmuratkara.com/#dr-murat-kara",
         "name": "Dr. Murat Kara",
         "givenName": "Murat",
         "familyName": "Kara",
@@ -55,15 +68,43 @@
           "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
           "addressLocality": "Çankaya",
           "addressRegion": "Ankara",
+          "postalCode": "06510",
           "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.9085",
+          "longitude": "32.8123"
         },
         "sameAs": [
           "https://www.instagram.com/drmuratkara/"
         ],
-        "areaServed": {
-          "@type": "City",
-          "name": "Ankara"
-        }
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Ankara"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Çankaya"
+          }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "priceRange": "$$"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drmuratkara.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Dr. Murat Kara", "item": "https://drmuratkara.com/dr-murat-kara.html" }
+        ]
       }
     ]
   }
@@ -138,64 +179,103 @@
     </nav>
   </header>
 
+  <div class="breadcrumb-bar">
+    <ol class="breadcrumb-list">
+      <li><a href="/">Ana Sayfa</a></li>
+      <li aria-current="page">Dr. Murat Kara</li>
+    </ol>
+  </div>
+
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <p class="eyebrow">Hekim Profili & Tıbbi Görüş</p>
+        <p class="eyebrow">Hekim Profili & Biyografi</p>
         <h1>Dr. Murat Kara</h1>
-        <p class="lead">Medikal Estetik ve Kozmetoloji – Ankara Çankaya</p>
+        <p class="lead">Medikal Estetik ve Kozmetoloji – Ankara</p>
       </div>
     </section>
 
     <div class="doctor-layout">
       <div>
         <div class="doctor-avatar-box">
-          <img src="/dr-murat-kara.jpg" alt="Dr. Murat Kara - Medikal Estetik ve Kozmetoloji Ankara" width="472" height="710" style="width: 100%; height: auto; border-radius: 2px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.06); margin-bottom: 16px;">
+          <img src="/dr-murat-kara.jpg" alt="Dr. Murat Kara - Medikal Estetik ve Kozmetoloji Hekimi Ankara" width="472" height="710" style="width: 100%; height: auto; border-radius: 2px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.06); margin-bottom: 16px;">
           <div class="badge-list">
-            <span class="badge">Hekim Muayenesi</span>
-            <span class="badge">Tıbbi Deontoloji</span>
+            <span class="badge">Tıp Hekimi</span>
+            <span class="badge">Medikal Estetik</span>
             <span class="badge">Ankara · Çankaya</span>
-            <span class="badge">Anatomik Uyum</span>
+            <span class="badge">Doğal Yüz Anatomisi</span>
           </div>
           <div style="margin-top: 20px;">
-            <a class="btn dark" style="width: 100%; text-align: center; box-sizing: border-box;" href="/iletisim.html">Randevu ve İletişim</a>
+            <a class="btn dark" style="width: 100%; text-align: center; box-sizing: border-box;" href="/iletisim.html">Klinik İletişim & Randevu</a>
+          </div>
+          <div style="margin-top: 10px;">
+            <a class="btn btn-whatsapp" style="width: 100%; text-align: center; box-sizing: border-box;" href="https://wa.me/905392508489?text=Merhaba%20Dr.%20Murat%20Bey%2C%20muayene%20randevusu%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Danışın</a>
           </div>
         </div>
       </div>
 
       <div class="prose" style="padding: 0; margin: 0; width: 100%;">
-        <h2>Hekimlik Felsefesi ve Doğal Estetik Yaklaşımı</h2>
-        <p>Tıbbın binlerce yıllık temel ilkesi olan <em>"Önce zarar verme" (primum non nocere)</em> anlayışı, Dr. Murat Kara'nın medikal estetik ve kozmetoloji uygulamalarındaki en temel rehberidir. Estetik tıbbın amacı kişiyi başka birine dönüştürmek, tek tip şablonlar üretmek veya yapay hacimler yaratmak değildir. Temel amaç; kişinin yüz ifadesini, karakteristik mimiklerini ve anatomik oranlarını koruyarak zamanla oluşan yorgun, sarkmış ya da dengesiz görünümü ölçülü dokunuşlarla gidermektir.</p>
+        <!-- AEO / AI Answer-First Entity Section -->
+        <div class="ai-quick-summary">
+          <div class="ai-quick-summary-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+            <span>Hekim Hakkında Hızlı Bilgi & Tanım</span>
+          </div>
+          <div class="summary-grid">
+            <div class="summary-item">
+              <span class="summary-label">Kimdir?</span>
+              <p class="summary-text"><strong>Dr. Murat Kara</strong>, Ankara Çankaya'daki özel muayenehanesinde yüz anatomisini, doku sağlığını ve doğal görünümü merkeze alan medikal estetik ve kozmetoloji uygulamaları gerçekleştiren tıp hekimidir.</p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Uzmanlık & Çalışma Alanı:</span>
+              <p class="summary-text">Medikal Estetik ve Kozmetoloji (Botulinum toksin, Masseter/diş sıkma botoksu, yüz ve dudak dolgusu, biyolojik lifting, eksozom, biyostimülanlar ve mezoterapi).</p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Hekimlik Felsefesi:</span>
+              <p class="summary-text"><em>"Önce zarar verme" (primum non nocere)</em> ilkesiyle; hastayı başkasına benzetmeyen, abartılı hacimlerden kaçınan ve mevcut dokuyu dinlenmiş, dengeli bir ifadeyle koruyan kişiye özel yaklaşım.</p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Konum & Kabul:</span>
+              <p class="summary-text">Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198, Çankaya / Ankara (Randevu esasıyla hasta kabulü).</p>
+            </div>
+          </div>
+        </div>
 
-        <h2>Kişiye Özel Muayene ve Yüz Analizi</h2>
-        <p>Her bireyin yüz anatomisi, kemik yoğunluğu, mimik kaslarının kuvveti ve cilt dokusu tamamen kendine özgüdür. Bu nedenle hazır kalıplar veya standart paketler yerine:</p>
+        <h2>Dr. Murat Kara Kimdir?</h2>
+        <p>Dr. Murat Kara, tıp eğitimi sonrasında medikal estetik ve kozmetoloji alanında yoğunlaşmış bir tıp hekimidir. Kariyeri boyunca estetik tıbbın bir cerrahi operasyon kadar derin bir anatomi bilgisi ve estetik vizyon gerektirdiği bilinciyle çalışmıştır. Ankara Çankaya'daki kliniğinde, bilimsel kanıta dayalı yöntemleri modern teknolojilerle birleştirerek hastalarına güvenli ve kişiselleştirilmiş sağlık hizmeti sunmaktadır.</p>
+
+        <h2>Hekimlik Felsefesi ve Doğal Estetik İlkeleri</h2>
+        <p>Tıbbın kadim prensibi olan <em>"Önce zarar verme" (primum non nocere)</em>, Dr. Murat Kara'nın tüm klinik kararlarında öncelikli rehberidir. Günümüzde estetik tıbbın en büyük yanılgısı, herkese aynı şablonları uygulamak ve aşırı dolgularla doğallıktan uzaklaşmaktır. Dr. Murat Kara'nın felsefesinde:</p>
         <ul>
-          <li>Detaylı yüz ve mimik kası analizi,</li>
-          <li>Kişinin beklentilerinin gerçekçi bir tıbbi çerçevede değerlendirilmesi,</li>
-          <li>Uygulamanın kişiye uygunluğunun ve olası risklerinin açıkça paylaşılması,</li>
-          <li>Doğallığı zedeleyecek ya da gereksiz görülen işlemlerin yapılmaması</li>
+          <li>Kişiyi başka birine dönüştürmek değil, kendi yüzünün en taze ve dinlenmiş haline ulaştırmak hedeflenir.</li>
+          <li>Aşırı şişirilmiş elmacıklar, donuk mimikler veya yapay hatlar yerine; dokunun dinamik mimikleriyle uyumlu ölçülü müdahaleler yapılır.</li>
+          <li>Gereksiz ya da hastanın yüz dengesini bozacak hiçbir işlem, hastanın ısrarı olsa dahi hekim etik ilkeleri gereği uygulanmaz.</li>
         </ul>
-        <p>muayene sürecinin vazgeçilmez temel ilkeleridir.</p>
 
-        <h2>Çalışma Alanları</h2>
-        <p>Dr. Murat Kara, Ankara Çankaya'daki kliniğinde aşağıdaki başlıca alanlarda hekim uygulamaları yürütmektedir:</p>
+        <h2>Yüz Anatomisi ve Dinamik Değerlendirme Yaklaşımı</h2>
+        <p>Yüz estetiği yalnızca cilt yüzeyinden ibaret değildir. Kemik çatısı, derin ve yüzeysel yağ kompartmanları, mimik kasları ve SMAS (yüzeysel kas-aponörotik sistem) birbiriyle sürekli etkileşim halindedir. Dr. Murat Kara, muayene esnasında hastanın yüzünü yalnızca hareketsizken değil; gülümserken, konuşurken ve çiğneme hareketleri yaparken dinamik olarak analiz eder. Bu sayede enjeksiyonlar damar ve sinir paketlerinden uzak, güvenli anatomik katmanlara (örneğin periost üzeri veya kanülle güvenli planlara) hassasiyetle gerçekleştirilir.</p>
+
+        <h2>Başlıca Klinik Çalışma Alanları</h2>
+        <p>Dr. Murat Kara'nın kliniğinde bizzat yürüttüğü uygulamalar 5 ana kategoride toplanmaktadır:</p>
         <ul>
-          <li><strong>Mimik Çizgileri ve Botulinum Toksin:</strong> Alın, kaş arası, kaz ayakları ve <a href="/masseter-botoks.html">masseter (diş sıkma)</a> botoksu.</li>
-          <li><strong>Hyalüronik Asit Dolgu Uygulamaları:</strong> <a href="/dudak-dolgusu.html">Dudak dolgusu</a>, <a href="/burun-dolgusu.html">burun dolgusu</a>, <a href="/goz-alti-isik-dolgusu.html">göz altı ışık dolgusu</a>, <a href="/cene-ucu-dolgusu.html">çene ucu</a>, <a href="/jawline-dolgusu.html">jawline</a> ve <a href="/orta-yuz-dolgusu.html">orta yüz restorasyonu</a>.</li>
-          <li><strong>Cilt Rejenerasyonu & Sıkılaşma:</strong> <a href="/biyolojik-lifting.html">Biyolojik lifting</a>, <a href="/eksozom.html">cilt eksozom tedavisi</a>, <a href="/yuz-mezoterapisi.html">yüz mezoterapisi</a> ve <a href="/biyostimulan.html">biyostimülanlar</a>.</li>
-          <li><strong>Saç Sağlığı:</strong> <a href="/sac-mezoterapisi.html">Saç mezoterapisi</a> ve <a href="/sac-eksozom.html">saç eksozom tedavisi</a>.</li>
+          <li><strong>1. Botoks & Mimik Tedavileri:</strong> Alın, kaş çatma ve kaz ayağı çizgilerinin yumuşatılması; diş sıkma (bruksizm) ve yüz altı konturu için <a href="/masseter-botoks.html">Masseter Botoks</a> uygulamaları. Detaylı rehber: <a href="/botulinum-toksin.html">Botulinum Toksin</a>.</li>
+          <li><strong>2. Hyaluronik Asit Dolgu Restorasyonu:</strong> Doğal oranları gözeten <a href="/dudak-dolgusu.html">Dudak Dolgusu</a>, ameliyatsız <a href="/burun-dolgusu.html">Burun Dolgusu</a>, kanülle uygulanan <a href="/goz-alti-isik-dolgusu.html">Göz Altı Işık Dolgusu</a>, profiloplasti için <a href="/cene-ucu-dolgusu.html">Çene Ucu</a>, hat belirginleştiren <a href="/jawline-dolgusu.html">Jawline</a> ve vektörel kaldırma sağlayan <a href="/orta-yuz-dolgusu.html">Orta Yüz Dolgusu</a>. Tüm detaylar: <a href="/dolgu.html">Dolgu Tedavileri</a>.</li>
+          <li><strong>3. Cilt Kalitesi & Rejeneratif Uygulamalar:</strong> Fibroblastları uyaran <a href="/biyolojik-lifting.html">Biyolojik Lifting</a>, hücresel sinyal ileticiler olan <a href="/eksozom.html">Eksozom Tedavisi</a>, kolajen sentezleyen <a href="/biyostimulan.html">Biyostimülanlar</a> ve mikro-enjeksiyonla <a href="/yuz-mezoterapisi.html">Yüz Mezoterapisi</a>. Detaylar: <a href="/cilt-uygulamalari.html">Cilt Uygulamaları</a>.</li>
+          <li><strong>4. Saç Tedavileri:</strong> Kıl köklerinin beslenmesi için <a href="/sac-mezoterapisi.html">Saç Mezoterapisi</a> ve hücresel onarım sağlayan <a href="/sac-eksozom.html">Saç Eksozom Tedavisi</a>. Detaylar: <a href="/mezoterapi-prp.html">PRP & Mezoterapi</a>.</li>
+          <li><strong>5. Bölgesel Vücut Uygulamaları:</strong> Dirençli lokal yağlanmalarda medikal lipoliz ve kontur desteği sunan <a href="/bolgesel-incelme.html">Bölgesel İncelme</a>.</li>
         </ul>
 
-        <h2>Hasta Güvenliği ve Orijinal Ürün Güvencesi</h2>
-        <p>Klinik uygulamalarında yalnızca güvenilirliği bilimsel olarak kanıtlanmış, uluslararası kalite belgelerine ve Sağlık Bakanlığı onayına sahip orijinal ürünler tercih edilmektedir. Tüm süreçler hekim kontrolünde ve kişiselleştirilmiş takip randevularıyla yürütülür.</p>
+        <h2>Hasta Güvenliği, Orijinal Ürünler ve Bilimsel Sorumluluk</h2>
+        <p>Klinikte uygulanan tüm medikal malzemeler (toksin preparatları, hyaluronik asit dolgular, eksozom kitleri ve mezoterapi solüsyonları); T.C. Sağlık Bakanlığı Ürün Takip Sistemi (ÜTS) kayıtlı, CE belgeli ve uluslararası bağımsız güvenlik otoritelerince onaylanmış orijinal ürünlerdir. Her uygulama steril klinik şartlarda bizzat hekim tarafından gerçekleştirilir.</p>
 
-        <h2>Ankara Çankaya Kliniği</h2>
-        <p>Hasta kabulü ve muayeneler Ankara Çankaya’daki klinikte, randevu esasına göre gerçekleştirilmektedir. Ayrıntılı bilgi ve muayene randevusu için iletişim kanallarımızdan bize ulaşabilirsiniz.</p>
+        <h2>Sitedeki Tıbbi İçeriklerin Sorumluluğu</h2>
+        <p><strong>drmuratkara.com</strong> web sitesindeki tüm tedavi açıklamaları, anatomi bilgileri, işlem öncesi ve sonrası öneriler Dr. Murat Kara tarafından tıbbi literatür doğrultusunda hazırlanmakta, incelenmekte ve düzenli olarak güncellenmektedir. Bu içerikler genel bilgilendirme amacıyla sunulmakta olup, hekim muayenesi yerine geçmez.</p>
 
-        <p style="margin-top: 32px;">
-          <a class="btn dark" href="/iletisim.html">İletişim & Konum Bilgileri</a>
-          <a class="btn btn-whatsapp" href="https://wa.me/905392508489?text=Merhaba%20Dr.%20Murat%20Bey%2C%20medikal%20estetik%20uygulamalar%C4%B1%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Danışın</a>
-        </p>
+        <div style="margin-top: 36px; padding-top: 20px; border-top: 1px solid #e5ded3;">
+          <p><strong>Klinik Adresi:</strong> Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198, Çankaya / Ankara</p>
+          <p><strong>Telefon / WhatsApp:</strong> <a href="tel:+905392508489">0539 250 84 89</a></p>
+          <p><strong>Resmi Instagram Profili:</strong> <a href="https://www.instagram.com/drmuratkara/" target="_blank" rel="noopener noreferrer">@drmuratkara</a></p>
+        </div>
       </div>
     </div>
   </main>

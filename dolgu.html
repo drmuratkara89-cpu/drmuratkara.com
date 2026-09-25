@@ -23,53 +23,121 @@
   <link href="/styles.css" rel="stylesheet"/>
   
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Ana Sayfa",
-            "item": "https://drmuratkara.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Uygulamalar",
-            "item": "https://drmuratkara.com/uygulamalar.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Dolgu Uygulamaları",
-            "item": "https://drmuratkara.com/dolgu.html"
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://drmuratkara.com/#website",
+      "url": "https://drmuratkara.com/",
+      "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
+      "description": "Dr. Murat Kara – Medikal Estetik ve Kozmetoloji – Ankara Çankaya kliniği resmi web sitesi.",
+      "publisher": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
       },
-      {
-        "@type": "Physician",
-        "name": "Dr. Murat Kara",
-        "url": "https://drmuratkara.com/",
-        "image": "https://drmuratkara.com/dr-murat-kara.jpg",
-        "telephone": "+905392508489",
-        "medicalSpecialty": "Cosmetic and Medical Aesthetics",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
-          "addressLocality": "Çankaya",
-          "addressRegion": "Ankara",
-          "addressCountry": "TR"
-        },
-        "areaServed": {
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://drmuratkara.com/dolgu.html#webpage",
+      "url": "https://drmuratkara.com/dolgu.html",
+      "name": "Dolgu Uygulamaları (Hyalüronik Asit) Ankara | Dr. Murat Kara",
+      "description": "Ankara Çankaya'da hyalüronik asit dolgu uygulamaları: Dudak, burun, göz altı, çene, jawline ve orta yüz dolguları hekim rehberi.",
+      "isPartOf": {
+        "@id": "https://drmuratkara.com/#website"
+      },
+      "author": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
+      },
+      "reviewedBy": {
+        "@id": "https://drmuratkara.com/#dr-murat-kara"
+      },
+      "lastReviewed": "2026-09-25",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-25",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://drmuratkara.com/#dr-murat-kara",
+      "name": "Dr. Murat Kara",
+      "givenName": "Murat",
+      "familyName": "Kara",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Medikal Estetik ve Kozmetoloji Hekimi",
+      "description": "Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan medikal estetik ve kozmetoloji uygulamaları yürüten tıp hekimi.",
+      "url": "https://drmuratkara.com/",
+      "image": "https://drmuratkara.com/dr-murat-kara.jpg",
+      "telephone": "+905392508489",
+      "medicalSpecialty": "Cosmetic and Medical Aesthetics",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
+        "addressLocality": "Çankaya",
+        "addressRegion": "Ankara",
+        "postalCode": "06510",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.9085",
+        "longitude": "32.8123"
+      },
+      "sameAs": [
+        "https://www.instagram.com/drmuratkara/"
+      ],
+      "areaServed": [
+        {
           "@type": "City",
           "name": "Ankara"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Çankaya"
         }
-      }
-    ]
-  }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://drmuratkara.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Uygulamalar",
+          "item": "https://drmuratkara.com/uygulamalar.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dolgu Uygulamaları",
+          "item": "https://drmuratkara.com/dolgu.html"
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -161,6 +229,36 @@
           <a class="btn dark" href="/iletisim.html">İletişim ve Randevu</a>
           <a class="btn btn-whatsapp" href="https://wa.me/905392508489?text=Merhaba%20Dr.%20Murat%20Bey%2C%20dolgu%20uygulamalar%C4%B1%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Danışın</a>
         </p>
+      </div>
+    </section>
+
+        <section class="wrap" style="padding-top: 20px;">
+      <div class="e-eat-meta-bar">
+        <div class="meta-item"><strong>Tıbbi İçerik & İnceleme:</strong> Dr. Murat Kara</div>
+        <div class="meta-item"><strong>Uzmanlık Alanı:</strong> Medikal Estetik ve Kozmetoloji</div>
+        <div class="meta-item"><strong>Son Güncelleme:</strong> 25 Eylül 2026</div>
+        <div class="meta-item"><strong>Klinik:</strong> Çankaya, Ankara</div>
+      </div>
+
+      <div class="ai-quick-summary" role="region" aria-label="Dolgu Uygulamaları Özeti">
+        <div class="ai-quick-summary-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+          <span>AEO Hızlı Yanıt & Özet: Hyaluronik Asit Dolgular</span>
+        </div>
+        <div class="summary-grid">
+          <div class="summary-item">
+            <span class="summary-label">Uygulama Tanımı:</span>
+            <p class="summary-text">Medikal estetik dolgu uygulamaları; insan dokusuyla %100 biyouyumlu saf hyaluronik asit jelinin yaşa, hacim kaybına veya yapısal asimetrilere bağlı eksiklikleri gidermek üzere hekim kontrolünde enjekte edilmesidir.</p>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Temel Amaç:</span>
+            <p class="summary-text">Yüzü değiştirmek veya abartılı şişkinlik yaratmak değil; eriyen kemik ve yağ kompartmanlarını destekleyerek doğal yüz oranlarını ve dinlenmiş ifadeyi korumaktır.</p>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Klinik Güvenlik Standartı:</span>
+            <p class="summary-text">Hyaluronik asit dolgular gerektiğinde 'hyaluronidaz' enzimi ile tamamen eritilebilir; bu durum tıbbi açıdan en yüksek güvenlik ve geri döndürülebilirlik standardını sunar.</p>
+          </div>
+        </div>
       </div>
     </section>
 
