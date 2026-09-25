@@ -1,17 +1,21 @@
 {
-  "name": "Dr. Murat Kara – Medikal Estetik ve Kozmetoloji",
+  "name": "Dr. Murat Kara | Medikal Estetik ve Kozmetoloji",
   "short_name": "Dr. Murat Kara",
+  "description": "Ankara Çankaya'da yüz anatomisi ve doğal görünümü esas alan medikal estetik ve kozmetoloji uygulamaları.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8f6f1",
+  "background_color": "#ffffff",
   "theme_color": "#f5f2eb",
-  "lang": "tr",
   "icons": [
     {
       "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }

@@ -1,21 +1,45 @@
-# Dr. Murat Kara
+# Dr. Murat Kara – Medikal Estetik ve Kozmetoloji
 
-Resmî web sitesi: https://drmuratkara.com/
+Resmî Web Sitesi: https://drmuratkara.com/
 Hekim: Dr. Murat Kara
-Alan: Medikal Estetik ve Kozmetoloji
-Konum: Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198, Çankaya / Ankara, Türkiye
-Telefon: +90 539 250 84 89
+Uzmanlık / Alan: Medikal Estetik ve Kozmetoloji Hekimi
+Klinik Konumu: Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198, Çankaya / Ankara, Türkiye
+Telefon & WhatsApp: +90 539 250 84 89
 Instagram: https://www.instagram.com/drmuratkara/
 
-## Temel sayfalar
-- Yaklaşım: https://drmuratkara.com/yaklasim.html
-- Uygulamalar: https://drmuratkara.com/uygulamalar.html
-- Botulinum toksin: https://drmuratkara.com/botulinum-toksin.html
-- Dolgu: https://drmuratkara.com/dolgu.html
-- Biyostimülanlar: https://drmuratkara.com/biyostimulan.html
-- Mezoterapi ve PRP: https://drmuratkara.com/mezoterapi-prp.html
-- Cilt uygulamaları: https://drmuratkara.com/cilt-uygulamalari.html
-- Sık sorulan sorular: https://drmuratkara.com/sss.html
-- İletişim: https://drmuratkara.com/iletisim.html
+## Kurumsal ve Hekim Sayfaları
+- Hekim Özgeçmişi: https://drmuratkara.com/dr-murat-kara.html
+- Klinik Yaklaşım: https://drmuratkara.com/yaklasim.html
+- Sıkça Sorulan Sorular: https://drmuratkara.com/sss.html
+- İletişim ve Konum: https://drmuratkara.com/iletisim.html
+- Tüm Uygulama Rehberi: https://drmuratkara.com/uygulamalar.html
+
+## Botoks & Mimik Tedavileri
+- Botulinum Toksin (Hub): https://drmuratkara.com/botulinum-toksin.html
+- Masseter Botoks (Diş Sıkma / Bruksizm & Yüz İnceltme): https://drmuratkara.com/masseter-botoks.html
+
+## Dolgu Uygulamaları
+- Dolgu Tedavileri (Hub): https://drmuratkara.com/dolgu.html
+- Dudak Dolgusu: https://drmuratkara.com/dudak-dolgusu.html
+- Burun Dolgusu (Ameliyatsız Rinoplasti): https://drmuratkara.com/burun-dolgusu.html
+- Göz Altı Işık Dolgusu: https://drmuratkara.com/goz-alti-isik-dolgusu.html
+- Çene Ucu Dolgusu: https://drmuratkara.com/cene-ucu-dolgusu.html
+- Jawline Dolgusu (Çene Hattı): https://drmuratkara.com/jawline-dolgusu.html
+- Orta Yüz ve Elmacık Dolgusu: https://drmuratkara.com/orta-yuz-dolgusu.html
+
+## Cilt & Rejeneratif Uygulamalar
+- Cilt Kalitesi ve Bakım (Hub): https://drmuratkara.com/cilt-uygulamalari.html
+- Biyolojik Lifting (Bioremodelling): https://drmuratkara.com/biyolojik-lifting.html
+- Eksozom Tedavisi: https://drmuratkara.com/eksozom.html
+- Biyostimülan Uygulamalar: https://drmuratkara.com/biyostimulan.html
+- Yüz Mezoterapisi: https://drmuratkara.com/yuz-mezoterapisi.html
+
+## Saç Tedavileri
+- PRP ve Mezoterapi (Hub): https://drmuratkara.com/mezoterapi-prp.html
+- Saç Mezoterapisi: https://drmuratkara.com/sac-mezoterapisi.html
+- Saç Eksozom Tedavisi: https://drmuratkara.com/sac-eksozom.html
+
+## Vücut & Bölgesel Uygulamalar
+- Bölgesel İncelme ve Kontur: https://drmuratkara.com/bolgesel-incelme.html
 
 Tıbbi içerikler genel bilgilendirme amaçlıdır; kişisel muayene, tanı veya tedavi önerisinin yerine geçmez. Uygunluk hekim değerlendirmesiyle belirlenir.

@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
@@ -14,66 +14,146 @@
   <meta property="og:url" content="https://drmuratkara.com/iletisim.html">
   <meta name="theme-color" content="#f5f2eb">
   <link rel="stylesheet" href="/styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Physician",
-    "name": "Dr. Murat Kara",
-    "url": "https://drmuratkara.com/",
-    "telephone": "+905392508489",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
-      "addressLocality": "Çankaya",
-      "addressRegion": "Ankara",
-      "addressCountry": "TR"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "10:00",
-        "closes": "19:00"
-      }
-    ],
-    "areaServed": {
-      "@type": "City",
-      "name": "Ankara"
-    }
-  }
-  </script>
   <meta property="og:site_name" content="Dr. Murat Kara">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="manifest" href="/site.webmanifest">
-  <link href="/favicon.svg" rel="icon" type="image/svg+xml">
-  <meta content="https://drmuratkara.com/og-dr-murat-kara.jpg" property="og:image">
-  <meta content="1200" property="og:image:width">
-  <meta content="630" property="og:image:height">
-  <meta content="Dr. Murat Kara – Medikal Estetik ve Kozmetoloji" property="og:image:alt">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://drmuratkara.com/og-dr-murat-kara.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dr. Murat Kara – Medikal Estetik ve Kozmetoloji">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://drmuratkara.com/iletisim.html",
+        "url": "https://drmuratkara.com/iletisim.html",
+        "name": "İletişim & Randevu | Dr. Murat Kara Çankaya Ankara",
+        "description": "Dr. Murat Kara klinik iletişim ve muayene randevu bilgileri.",
+        "author": { "@id": "https://drmuratkara.com/#physician" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://drmuratkara.com/" },
+          { "@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://drmuratkara.com/iletisim.html" }
+        ]
+      },
+      {
+        "@type": "Physician",
+        "@id": "https://drmuratkara.com/#physician",
+        "name": "Dr. Murat Kara",
+        "url": "https://drmuratkara.com/",
+        "telephone": "+905392508489",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198",
+          "addressLocality": "Çankaya",
+          "addressRegion": "Ankara",
+          "addressCountry": "TR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": "Ankara"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main-content">İçeriğe geç</a>
+
   <header class="site-header">
     <a class="brand" href="/">
-      <span class="brand-logo"><img src="/logo.svg" alt="Dr. Murat Kara Logo" width="42" height="42"></span>
+      <span class="brand-logo"><img src="/logo.svg" alt="Dr. Murat Kara Logo" width="54" height="54"></span>
       <div class="brand-text"><strong>Dr. Murat KARA</strong><span>Medikal Estetik ve Kozmetoloji</span></div>
     </a>
-    <button class="menu" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    <button aria-expanded="false" aria-label="Menüyü aç" class="menu">☰</button>
     <nav>
       <a href="/">Ana Sayfa</a>
-      <a href="/yaklasim.html">Yaklaşım</a>
-      <a href="/uygulamalar.html">Uygulamalar</a>
       <a href="/dr-murat-kara.html">Dr. Murat Kara</a>
+      <div class="nav-item">
+        <button class="nav-dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+          Uygulamalar <span class="arrow-icon">▼</span>
+        </button>
+        <div class="mega-menu">
+          <div class="mega-col">
+            <h4>Botoks & Mimik</h4>
+            <ul>
+              <li><a href="/botulinum-toksin.html" class="mega-hub-link">Botulinum Toksin</a></li>
+              <li><a href="/masseter-botoks.html">Masseter Botoks <span class="mega-badge">Popüler</span></a></li>
+            </ul>
+          </div>
+          <div class="mega-col">
+            <h4>Dolgu & Yüz</h4>
+            <ul>
+              <li><a href="/dolgu.html" class="mega-hub-link">Tüm Dolgu Tedavileri</a></li>
+              <li><a href="/dudak-dolgusu.html">Dudak Dolgusu</a></li>
+              <li><a href="/burun-dolgusu.html">Burun Dolgusu</a></li>
+              <li><a href="/goz-alti-isik-dolgusu.html">Göz Altı Işık Dolgusu</a></li>
+              <li><a href="/cene-ucu-dolgusu.html">Çene Ucu Dolgusu</a></li>
+              <li><a href="/jawline-dolgusu.html">Jawline Dolgusu</a></li>
+              <li><a href="/orta-yuz-dolgusu.html">Orta Yüz & Elmacık</a></li>
+            </ul>
+          </div>
+          <div class="mega-col">
+            <h4>Cilt & Rejeneratif</h4>
+            <ul>
+              <li><a href="/cilt-uygulamalari.html" class="mega-hub-link">Cilt Kalitesi & Bakım</a></li>
+              <li><a href="/biyolojik-lifting.html">Biyolojik Lifting <span class="mega-badge">Yeni</span></a></li>
+              <li><a href="/eksozom.html">Eksozom Tedavisi</a></li>
+              <li><a href="/yuz-mezoterapisi.html">Yüz Mezoterapisi</a></li>
+              <li><a href="/biyostimulan.html">Biyostimülan Uygulamalar</a></li>
+            </ul>
+          </div>
+          <div class="mega-col">
+            <h4>Saç Uygulamaları</h4>
+            <ul>
+              <li><a href="/sac-mezoterapisi.html">Saç Mezoterapisi</a></li>
+              <li><a href="/sac-eksozom.html">Saç Eksozom Tedavisi</a></li>
+              <li><a href="/mezoterapi-prp.html">PRP & Mezoterapi</a></li>
+            </ul>
+          </div>
+          <div class="mega-col">
+            <h4>Vücut & Bölgesel</h4>
+            <ul>
+              <li><a href="/bolgesel-incelme.html">Bölgesel İncelme</a></li>
+              <li><a href="/uygulamalar.html" style="font-weight:600; margin-top:8px;">Tüm Uygulama Rehberi →</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="/yaklasim.html">Yaklaşım</a>
       <a href="/sss.html">S.S.S.</a>
-      <a href="/iletisim.html" aria-current="page">İletişim</a>
+      <a aria-current="page" href="/iletisim.html">İletişim</a>
     </nav>
   </header>
 
+  <div class="breadcrumb-bar">
+    <ol class="breadcrumb-list">
+      <li><a href="/">Ana Sayfa</a></li>
+      <li aria-current="page">İletişim & Randevu</li>
+    </ol>
+  </div>
+
   <main id="main-content">
     <section class="page-hero">
-      <p class="eyebrow">İLETİŞİM & RANDEVU</p>
-      <h1>Dr. Murat Kara</h1>
-      <p class="lead">Medikal estetik ve kozmetoloji uygulamaları hakkında bilgi almak ve kişisel muayene randevusu oluşturmak için bizimle iletişime geçebilirsiniz.</p>
+      <div class="hero-content">
+        <p class="eyebrow">İLETİŞİM & RANDEVU</p>
+        <h1>Dr. Murat Kara Muayenehanesi</h1>
+        <p class="lead">Medikal estetik ve kozmetoloji uygulamaları hakkında detaylı bilgi almak ve kişisel muayene randevusu oluşturmak için bizimle iletişime geçebilirsiniz.</p>
+      </div>
     </section>
 
     <div class="contact-grid">
@@ -109,24 +189,29 @@
       </div>
     </section>
 
-    <section class="prose">
-      <p class="note"><strong>Önemli Bilgilendirme:</strong> Randevu ve kişisel tıbbi değerlendirme için doğrudan iletişime geçebilirsiniz. Bu sitedeki tüm içerikler bilgilendirme amaçlıdır; hekim muayenesi yerine geçmez. Acil sağlık durumlarında lütfen 112 Acil Çağrı Merkezi’ne başvurun.</p>
-    </section>
+    <div class="treatment-layout">
+      <div class="prose">
+        <p class="note"><strong>Önemli Bilgilendirme:</strong> Randevu ve kişisel tıbbi değerlendirme için doğrudan iletişime geçebilirsiniz. Bu sitedeki tüm içerikler bilgilendirme amaçlıdır; hekim muayenesi yerine geçmez. Acil sağlık durumlarında lütfen 112 Acil Çağrı Merkezi’ne başvurun.</p>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <div>
+    <div class="wrap" style="padding: 0; margin-bottom: 24px;">
       <strong>Dr. Murat Kara</strong>
       <p>Kızılırmak Mahallesi, Dumlupınar Bulvarı No: 9A/198, Çankaya / Ankara</p>
       <p><a href="tel:+905392508489">0539 250 84 89</a></p>
-      <p><a href="https://wa.me/905392508489?text=Merhaba%20Dr.%20Murat%20Bey%2C%20medikal%20estetik%20uygulamalar%C4%B1%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile iletişim</a></p>
     </div>
-    <div>
+    <div class="wrap" style="padding: 0; margin-bottom: 16px;">
       <a href="/gizlilik.html">Gizlilik</a>
       <a href="/aydinlatma.html">Aydınlatma</a>
+      <a href="/uygulamalar.html">Tüm Uygulamalar</a>
+      <a href="/dr-murat-kara.html">Hekim Özgeçmişi</a>
     </div>
-    <p class="legal">Bu sitedeki içerikler genel bilgilendirme amaçlıdır. Muayene, tanı veya kişiye özel tedavi önerisinin yerine geçmez.</p>
-    <small>© 2026 Dr. Murat Kara</small>
+    <div class="wrap" style="padding: 0;">
+      <p class="legal">Bu sitedeki içerikler genel bilgilendirme amaçlıdır. Muayene, tanı veya kişiye özel tedavi önerisinin yerine geçmez.</p>
+      <small>© 2026 Dr. Murat Kara · Medikal Estetik ve Kozmetoloji</small>
+    </div>
   </footer>
 
   <a class="floating-call" href="tel:+905392508489" aria-label="Telefonla randevu">Ara</a>
