@@ -1061,3 +1061,90 @@ footer a:hover { color: #fff; }
   font-style: italic;
 }
 
+
+
+/* Dudak Dolgusu Ankara landing page */
+.lip-hero {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.lip-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr);
+  gap: 48px;
+  align-items: center;
+}
+.lip-hero-media {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 12px;
+}
+.lip-hero-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+.lip-hero-media figcaption {
+  margin: 10px 4px 2px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.hero-inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+.instagram-video-card {
+  margin: 40px 0;
+  border: 1px solid var(--line);
+  padding: 24px;
+  background: var(--paper);
+  border-radius: 4px;
+}
+@media (max-width: 820px) {
+  .lip-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .lip-hero-media {
+    max-width: 520px;
+  }
+}
+
+.lip-hero-note {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 28px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lip-note-kicker {
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.lip-hero-note strong {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.lip-hero-note p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 14px 0;
+}
+.lip-hero-note a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
