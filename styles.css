@@ -907,6 +907,9 @@ footer a:hover { color: #fff; }
   .nav-item.open .mega-menu {
     display: flex;
     flex-direction: column;
+    animation: none;
+    transform: none;
+    left: auto;
   }
 
   .hero { padding: 64px 0 54px; }
