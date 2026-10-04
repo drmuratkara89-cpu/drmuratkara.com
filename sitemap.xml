@@ -3,37 +3,37 @@
   <!-- Ana Sayfa ve Temel Sayfalar -->
   <url>
     <loc>https://drmuratkara.com/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/dr-murat-kara.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/uygulamalar.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/yaklasim.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/sss.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/iletisim.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -41,19 +41,19 @@
   <!-- Botoks Kategorisi -->
   <url>
     <loc>https://drmuratkara.com/botulinum-toksin.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/masseter-botoks.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/terleme-botoksu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -61,15 +61,27 @@
   <!-- Dolgu Kategorisi -->
   <url>
     <loc>https://drmuratkara.com/dolgu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/dudak-dolgusu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://drmuratkara.com/ilk-kez-dudak-dolgusu.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://drmuratkara.com/dudak-dolgusu-sonrasi-sislik-iyilesme.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/burun-dolgusu.html</loc>
@@ -79,19 +91,19 @@
   </url>
   <url>
     <loc>https://drmuratkara.com/goz-alti-isik-dolgusu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/cene-ucu-dolgusu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://drmuratkara.com/jawline-dolgusu.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -105,7 +117,7 @@
   <!-- Cilt & Rejeneratif Kategori -->
   <url>
     <loc>https://drmuratkara.com/cilt-uygulamalari.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -149,7 +161,7 @@
   </url>
   <url>
     <loc>https://drmuratkara.com/mezoterapi-prp.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
