@@ -1381,3 +1381,15 @@ footer a:hover { color: #fff; }
 .premium-focus-links {display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;}
 .premium-focus-links a {color:#514235;font-size:13px;text-decoration:underline;text-underline-offset:4px;padding:7px 0;}
 .premium-focus-links a:focus-visible {outline:2px solid #705538;outline-offset:3px;}
+
+
+/* Physician's Instagram profile: editorial, calm and mobile-friendly */
+.premium-home .instagram-follow { display:flex; align-items:center; gap:14px; margin-top:26px; padding:18px 20px; background:#f8f6f1; border:1px solid #e7e1d8; border-radius:9px; }
+.premium-home .instagram-follow-icon { display:grid; place-items:center; flex:0 0 42px; width:42px; height:42px; border-radius:50%; background:#f0e8df; color:#483c35; }
+.premium-home .instagram-follow-copy { display:flex; flex-direction:column; gap:4px; min-width:0; flex:1; }
+.premium-home .instagram-follow-copy strong { font-size:14px; font-weight:650; color:#25211e; line-height:1.35; }
+.premium-home .instagram-follow-copy span { font-size:12px; color:#615c55; line-height:1.5; }
+.premium-home .instagram-follow-link { color:#332a23; text-decoration:none; font-size:13px; font-weight:700; white-space:nowrap; padding:10px 3px; border-bottom:1px solid #897761; }
+.premium-home .instagram-follow-link:hover { color:#745940; border-color:currentColor; }
+.premium-home .instagram-follow-link:focus-visible { outline:3px solid #a88760; outline-offset:4px; }
+@media(max-width:560px){.premium-home .instagram-follow{align-items:flex-start;flex-wrap:wrap;padding:16px;gap:10px 12px;}.premium-home .instagram-follow-icon{flex-basis:38px;width:38px;height:38px;}.premium-home .instagram-follow-link{margin-left:50px;padding-top:5px;}}
