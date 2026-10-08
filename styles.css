@@ -1225,3 +1225,63 @@ footer a:hover { color: #fff; }
  .site-header .brand-text span {font-size:8px;letter-spacing:.08em;}
  .site-header .menu {flex-shrink:0;padding:6px;font-size:23px;}
 }
+
+
+/* Premium V2: homepage-only treatment for featured cards and sticky contact */
+.premium-home .featured-section {
+  background: #fffefa;
+}
+.premium-home .featured-header { max-width: 730px; }
+.premium-home .featured-grid { gap: 15px; }
+.premium-home .featured-card {
+  background: linear-gradient(160deg, #ffffff, #fbf9f5);
+  border-color: #e8e3da;
+  min-width: 0;
+  min-height: 275px;
+  padding: 32px 28px 26px;
+  border-radius: 3px;
+  box-shadow: 0 5px 18px rgba(33, 27, 21, .025);
+}
+.premium-home .featured-card:hover,
+.premium-home .featured-card:focus-visible {
+  border-color: #bca98c;
+  box-shadow: 0 15px 38px rgba(45, 35, 27, .08);
+}
+.premium-home .featured-card:focus-visible,
+.premium-home .premium-hero-actions .btn:focus-visible,
+.premium-home .floating-whatsapp:focus-visible {
+  outline: 3px solid #b19061;
+  outline-offset: 3px;
+}
+.premium-home .featured-link { color:#7d694e; }
+.premium-home .floating-whatsapp {
+  background: #25221f;
+  box-shadow: 0 8px 24px rgba(20,17,15,.18);
+  border: 1px solid rgba(255,255,255,.15);
+}
+.premium-home .floating-whatsapp:hover {
+  background: #4a4034;
+  box-shadow: 0 10px 25px rgba(20,17,15,.22);
+}
+@media(max-width:820px) {
+  .premium-home .featured-section { padding: 62px 0; }
+  .premium-home .featured-card { min-height: 0; padding: 25px 22px; }
+  .premium-home .floating-whatsapp {
+    right: 13px;
+    bottom: max(13px,env(safe-area-inset-bottom));
+    font-size: 13px;
+    padding: 10px 13px;
+  }
+  .premium-home .floating-call {
+    left: 13px;
+    bottom: max(13px,env(safe-area-inset-bottom));
+    padding: 10px 13px;
+  }
+}
+@media(prefers-reduced-motion: reduce) {
+  .premium-home .featured-card,
+  .premium-home .floating-whatsapp,
+  .premium-home .premium-hero-actions .btn { transition: none; }
+  .premium-home .featured-card:hover,
+  .premium-home .floating-whatsapp:hover { transform: none; }
+}
