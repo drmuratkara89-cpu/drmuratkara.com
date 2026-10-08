@@ -1358,3 +1358,10 @@ footer a:hover { color: #fff; }
   .premium-profile .site-header nav { box-sizing:border-box; width:100%; max-width:100%; top:100%; left:0; right:0; z-index:100; overflow-x:hidden; }
   .premium-profile .site-header nav a, .premium-profile .nav-dropdown-trigger { overflow-wrap:anywhere; }
 }
+
+/* Premium V2: keep hero paragraph within narrow phone screens */
+@media (max-width: 820px) {
+  .hero-premium .premium-hero-copy, .hero-premium .lead { width: 100%; max-width: 100%; min-width: 0; box-sizing: border-box; }
+  .hero-premium .lead { white-space: normal; overflow-wrap: anywhere; }
+}
+
