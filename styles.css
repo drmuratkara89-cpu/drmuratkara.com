@@ -1376,3 +1376,8 @@ footer a:hover { color: #fff; }
 /* Accessible WhatsApp label on brand green */
 .premium-home .floating-whatsapp { color: #073b1c; }
 
+
+/* Contextual links: easy to scan on mobile */
+.premium-focus-links {display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;}
+.premium-focus-links a {color:#514235;font-size:13px;text-decoration:underline;text-underline-offset:4px;padding:7px 0;}
+.premium-focus-links a:focus-visible {outline:2px solid #705538;outline-offset:3px;}
