@@ -1285,3 +1285,63 @@ footer a:hover { color: #fff; }
   .premium-home .featured-card:hover,
   .premium-home .floating-whatsapp:hover { transform: none; }
 }
+
+
+/* Premium V2 – physician profile, preserves medical copy and structured data */
+.premium-profile .page-hero {
+  background:linear-gradient(120deg,#fcfbf9,#f4efe7);
+  padding-top:clamp(54px,7vw,105px);
+  padding-bottom:clamp(44px,5vw,72px);
+}
+.premium-profile .page-hero .lead {color:#666059;}
+.premium-profile .doctor-layout {
+  align-items:start;
+  gap:clamp(30px,5vw,80px);
+}
+.premium-profile .doctor-avatar-box {
+  background:#faf8f3;
+  border:1px solid #e8e0d6;
+  box-shadow:0 18px 42px rgba(35,28,20,.07);
+  padding:20px;
+}
+.premium-profile .doctor-avatar-box img {
+  max-height:640px;
+  object-fit:cover;
+  object-position: center 24%;
+}
+.premium-profile .doctor-avatar-box .badge-list {
+  margin-top:22px;
+}
+.premium-profile .doctor-avatar-box .btn-whatsapp {
+  background:#272420 !important;
+  border-color:#272420 !important;
+  color:#fff !important;
+  justify-content:center;
+}
+.premium-profile .doctor-avatar-box .btn-whatsapp:hover {
+  background:#554737 !important;
+}
+.premium-profile .prose h2 {
+  padding-top:12px;
+  letter-spacing:-.022em;
+}
+.premium-profile .prose p,.premium-profile .prose li {overflow-wrap:break-word;}
+.premium-profile .doctor-avatar-box a:focus-visible {
+  outline:3px solid #b19061;
+  outline-offset:3px;
+}
+@media(max-width:820px) {
+  .premium-profile .doctor-layout {
+    grid-template-columns:minmax(0,1fr);
+    gap:32px;
+  }
+  .premium-profile .doctor-avatar-box {
+    max-width:540px;
+    margin-inline:auto;
+    padding:14px;
+  }
+  .premium-profile .page-hero {
+    padding-inline:16px;
+  }
+  .premium-profile .prose {min-width:0;}
+}
