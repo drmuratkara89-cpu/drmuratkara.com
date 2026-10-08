@@ -1372,3 +1372,7 @@ footer a:hover { color: #fff; }
 .premium-home .eyebrow { color: #705538; }
 .premium-home #iletisim .eyebrow { color: #e5cda9; }
 .premium-home .btn-whatsapp { color: #073b1c !important; }
+
+/* Accessible WhatsApp label on brand green */
+.premium-home .floating-whatsapp { color: #073b1c; }
+
