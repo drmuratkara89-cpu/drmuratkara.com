@@ -1365,3 +1365,10 @@ footer a:hover { color: #fff; }
   .hero-premium .lead { white-space: normal; overflow-wrap: anywhere; }
 }
 
+
+/* Patient trust release refinements */
+.premium-home .step-num { color: #81796d; }
+.premium-home footer a { min-height: 28px; padding: 4px 0; }
+.premium-home .eyebrow { color: #705538; }
+.premium-home #iletisim .eyebrow { color: #e5cda9; }
+.premium-home .btn-whatsapp { color: #073b1c !important; }
