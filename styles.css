@@ -1441,3 +1441,6 @@ footer a:hover { color: #fff; }
  .premium-home .featured-header .premium-focus-links{justify-content:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.premium-home .featured-card{transition:none}}
+
+/* Accessibility: contrast for the six small featured category labels. */
+.premium-home .featured-card .featured-tag{color:#5b4939}
