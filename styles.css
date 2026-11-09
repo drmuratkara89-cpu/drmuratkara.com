@@ -1412,3 +1412,6 @@ footer a:hover { color: #fff; }
   .premium-home .premium-hero-copy .eyebrow{letter-spacing:.11em}
 }
 @media(prefers-reduced-motion:reduce){.premium-home .featured-card{transition:none}}
+
+/* Calm editorial first view: appointment details remain in contact section */
+.premium-home .floating-whatsapp,.premium-home .floating-call{display:none !important}
