@@ -1415,3 +1415,29 @@ footer a:hover { color: #fff; }
 
 /* Calm editorial first view: appointment details remain in contact section */
 .premium-home .floating-whatsapp,.premium-home .floating-call{display:none !important}
+
+/* Studio editorial refinement, genuine portrait remains exclusive to the hero. */
+.premium-home .approach-editorial{
+  position:relative;background:#f5f1eb;border:1px solid #e5ddd2;
+  padding:clamp(26px,3.5vw,52px);min-height:320px;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+.premium-home .approach-editorial::before{content:"";position:absolute;left:clamp(26px,3.5vw,52px);top:0;width:52px;height:2px;background:#6e5b48}
+.premium-home .approach-editorial-index{font-size:11px;letter-spacing:.18em;font-weight:650;color:#655441}
+.premium-home .approach-editorial-quote{font-family:Georgia,serif;font-size:clamp(30px,3.4vw,52px);font-weight:400;line-height:1.16;letter-spacing:-.05em;color:#282522;margin:27px 0}
+.premium-home .approach-editorial-rule{width:60px;height:1px;background:#a69a8b}
+.premium-home .approach-editorial-note{font-size:14px;line-height:1.7;color:#575047;max-width:33ch;margin:19px 0 0}
+.premium-home .featured-header .premium-focus-links{margin:21px 0 30px;gap:10px 24px}
+.premium-home .featured-header .premium-focus-links a{font-size:13px;min-height:36px;display:inline-flex;align-items:center}
+.premium-home .featured-card{border-color:#e9e3da;background:#fffefa;box-shadow:0 3px 15px rgba(34,30,25,.02)}
+.premium-home .featured-card h3{letter-spacing:-.025em}
+.premium-home .premium-hero-copy{max-width:670px}
+.premium-home .hero-premium .premium-hero-portrait{box-shadow:0 27px 75px -44px rgba(38,34,27,.26)}
+@media(max-width:700px){
+ .premium-home .hero-premium{padding-top:31px;padding-bottom:36px}
+ .premium-home .premium-hero-actions{margin-top:22px}
+ .premium-home .premium-hero-signature{margin-top:18px}
+ .premium-home .approach-editorial{min-height:280px}
+ .premium-home .featured-header .premium-focus-links{justify-content:flex-start}
+}
+@media(prefers-reduced-motion:reduce){.premium-home .featured-card{transition:none}}
