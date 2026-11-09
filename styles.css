@@ -1393,3 +1393,22 @@ footer a:hover { color: #fff; }
 .premium-home .instagram-follow-link:hover { color:#745940; border-color:currentColor; }
 .premium-home .instagram-follow-link:focus-visible { outline:3px solid #a88760; outline-offset:4px; }
 @media(max-width:560px){.premium-home .instagram-follow{align-items:flex-start;flex-wrap:wrap;padding:16px;gap:10px 12px;}.premium-home .instagram-follow-icon{flex-basis:38px;width:38px;height:38px;}.premium-home .instagram-follow-link{margin-left:50px;padding-top:5px;}}
+
+/* CuriGate Premium Editorial pass - 2026-11-09; scoped to home */
+.premium-home .hero-premium{background:linear-gradient(125deg,#f8f5ef 0%,#fdfcf9 58%,#eee9df 100%)}
+.premium-home .premium-hero-copy .eyebrow{letter-spacing:.18em;font-size:.72rem;font-weight:600}
+.premium-home #premium-title{letter-spacing:-.045em;text-wrap:balance}
+.premium-home #premium-title em{font-weight:400}
+.premium-home .premium-hero-portrait{overflow:hidden}
+.premium-home .premium-hero-portrait img{display:block;object-fit:cover}
+.premium-home .featured-card{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  .premium-home .featured-card:hover{transform:translateY(-3px);box-shadow:0 15px 40px rgba(34,30,25,.075)}
+}
+.premium-home .premium-hero-actions a:focus-visible,.premium-home .featured-card:focus-visible{outline:3px solid #77634f;outline-offset:3px}
+@media(max-width:700px){
+  .premium-home .hero-premium{background:#faf8f4}
+  .premium-home #premium-title{letter-spacing:-.035em}
+  .premium-home .premium-hero-copy .eyebrow{letter-spacing:.11em}
+}
+@media(prefers-reduced-motion:reduce){.premium-home .featured-card{transition:none}}
